@@ -68,7 +68,7 @@ class _MyMainAppState extends State<MyMainApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('The Personality Test'),
+          title: Text('The Personality Testing App'),
         ),
         body: _questionIndex < questions.length
             ? Quiz(
